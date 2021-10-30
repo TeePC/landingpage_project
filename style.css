@@ -37,6 +37,7 @@ a {
     display: flex;
     align-items: center;
     color:  #F9FAF8;
+    
  }
 
 
@@ -47,6 +48,7 @@ a {
     gap: 20px;
     font-size: 18px;
     color: #7b7c7e;
+   
  }
 
  
@@ -93,3 +95,41 @@ a {
      height: 240px;
      width: 400px;
  }
+
+ .main2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+    max-width: 80%;
+    padding-left: 10em;
+    padding-right: 10em;
+ }
+
+ .m2-title {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+ }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 5em;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    background-color: #E5E7EB;
+}
+
+.m3-container {
+    width: 50em;
+    font-size: 36px;
+    color: #1F2937;
+}
